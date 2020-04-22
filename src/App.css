@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (min-width: 600px) {
+  .total-books{
+    border-right: 1px solid #dee2e6
+  }
+  .delete-button{
+    opacity: 0;
+  }
+}
+.total-books , .total-pages{
+  background-color: #F2F2F2;
+}
+
+.delete-button{
+  padding: 0 0.5rem !important;
+
+}
+.table tr:hover .delete-button{
+  opacity: 1;
+}
